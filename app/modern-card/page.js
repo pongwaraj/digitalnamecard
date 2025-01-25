@@ -1,4 +1,5 @@
-'use client'
+// app/modern-card/page.js
+'use client';
 
 import { useState } from 'react';
 import { Mail, Phone, MapPin, Briefcase, Building, Globe, Linkedin, Instagram } from 'lucide-react';
