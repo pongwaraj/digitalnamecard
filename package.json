@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "digitalnamecard",
+=======
+  "name": "digitalnamecard-new",
+>>>>>>> d165c7cfaaa251a60326a6ef1aa8dc5efcbb0a06
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +13,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@geist-ui/react": "^2.2.5",
     "@nextui-org/react": "^2.6.11",
     "framer-motion": "^12.0.5",
@@ -22,6 +27,18 @@
     "eslint": "^8.0.0",
     "eslint-config-next": "^14.0.0",
     "postcss": "^8.0.0",
+=======
+    "lucide-react": "^0.474.0",
+    "next": "15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6",
+    "postcss": "^8",
+>>>>>>> d165c7cfaaa251a60326a6ef1aa8dc5efcbb0a06
     "tailwindcss": "^3.4.1"
   }
 }

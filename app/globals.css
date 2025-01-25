@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 /* app/globals.css */
+=======
+>>>>>>> d165c7cfaaa251a60326a6ef1aa8dc5efcbb0a06
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
+<<<<<<< HEAD
   --font-geist-sans: 'Geist Sans', sans-serif;
   --font-geist-mono: 'Geist Mono', monospace;
 }
@@ -11,3 +15,21 @@
 body {
   font-family: var(--font-geist-sans);
 }
+=======
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+>>>>>>> d165c7cfaaa251a60326a6ef1aa8dc5efcbb0a06
